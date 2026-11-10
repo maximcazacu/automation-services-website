@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#102b27">
+  <meta name="description" content="FluxClar implementează agenți AI în Microsoft Copilot Studio, automatizări Power Automate și raportare Excel. Încearcă demo-ul și discută un proiect pilot.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ro_RO">
+  <meta property="og:site_name" content="FluxClar">
+  <meta property="og:title" content="FluxClar | Pilot AI în Microsoft Copilot Studio">
+  <meta property="og:description" content="Echipa întreabă. Agentul răspunde din documentele aprobate și indică sursa. Încearcă demo-ul FluxClar.">
+  <title>Agenți AI în Copilot Studio și automatizări | FluxClar</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="BricolageGrotesque-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="InstrumentSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <!-- preview:start --><p class="preview-notice" role="note">Preview pentru review și redesign. Identitatea vizuală și numele actual sunt respinse și urmează să fie înlocuite. Site-ul nu este lansat comercial. Nu trimite date reale pentru testare.</p><!-- preview:end -->
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="icon-down" viewBox="0 0 24 24"><path d="M12 4v15m-6-6 6 6 6-6"/></symbol>
+    <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="icon-document" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6m-6 4h6"/></symbol>
+    <symbol id="icon-flow" viewBox="0 0 24 24"><path d="M3 5h5c4 0 4 7 8 7h5M3 12h18M3 19h5c4 0 4-7 8-7m2-3 3 3-3 3"/></symbol>
+    <symbol id="icon-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 10h16m-16 5h16M10 4v16m5-16v16"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10"/></symbol>
+    <symbol id="icon-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="icon-link" viewBox="0 0 24 24"><path d="M10 13a4 4 0 0 0 6 .4l4-4a4 4 0 0 0-5.7-5.6L12 6m0 5a4 4 0 0 0-6-.4l-4 4a4 4 0 0 0 5.7 5.6L10 18"/></symbol>
+  </svg>
+  <a class="skip" href="#continut">Sari la conținut</a>
+
+  <header class="site-header" id="acasa">
+    <div class="nav wrap">
+      <a href="#acasa" class="brand" aria-label="FluxClar — acasă" translate="no">
+        <img src="fluxclar-on-dark.svg" alt="" width="230" height="64" fetchpriority="high">
+        <span class="brand-sub" translate="yes">Agenți AI și automatizări</span>
+      </a>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="main-nav" hidden>
+        Meniu <svg class="icon" aria-hidden="true"><use href="#icon-menu"/></svg>
+      </button>
+      <nav id="main-nav" aria-label="Navigare principală">
+        <a href="#demo">Demo</a>
+        <a href="#servicii">Servicii</a>
+        <a href="#proces">Cum lucrăm</a>
+        <a href="fluxclar-ops.html">FluxClar Ops</a>
+        <a class="mobile-contact" href="#contact">Contact</a>
+      </nav>
+      <a class="button nav-cta" href="#contact">Hai să vorbim <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+    </div>
+  </header>
+
+  <main id="continut" tabindex="-1">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Agenți AI în<br> Copilot Studio</h1>
+        <p class="hero-lead">Configurăm agenți AI în <strong translate="no">Microsoft Copilot Studio</strong> care răspund la întrebările echipei din documentele aprobate și indică sursa.</p>
+        <div class="actions">
+          <a class="button primary" href="#contact" data-service="Agenți Copilot Studio">Discută un pilot AI <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+          <a class="text-link" href="#demo">Încearcă demo-ul <svg class="icon" aria-hidden="true"><use href="#icon-down"/></svg></a>
+        </div>
+        <a class="hero-pilot" href="#proces">
+          <span><strong>Ce include pilotul</strong><span>Un proces intern, întrebări de test și un ghid pentru echipă.</span></span>
+          <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>
+        </a>
+        <p class="hero-note">Lucrezi direct cu <strong>profesioniști cu experiență</strong>.</p>
+      </div>
+      <figure class="hero-figure">
+        <img class="hero-art" src="fluxclar-flow.png" width="1040" height="810" fetchpriority="high" alt="Trei trasee pornesc din documente și se întâlnesc într-un singur răspuns.">
+        <figcaption>
+          <span>Din documente în răspunsuri</span>
+          <strong>Mai puțini pași. Mai mult timp.</strong>
+        </figcaption>
+      </figure>
+    </section>
+
+    <div class="tool-strip">
+      <div class="wrap tool-row">
+        <p>Instrumentele cu care lucrăm</p>
+        <ul role="list" translate="no"><li>Copilot Studio</li><li>SharePoint</li><li>Power Automate</li><li>Excel</li></ul>
+      </div>
+    </div>
+
+    <section class="demo-section" id="demo" aria-labelledby="demo-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <h2 id="demo-title">Vezi răspunsul.<br> Verifică sursa.</h2>
+          <p>Încearcă trei întrebări din munca de zi cu zi. Vezi și ce se întâmplă când agentul nu găsește informația.</p>
+        </div>
+        <div class="demo-workspace">
+          <div class="demo-sidebar">
+            <h3 id="demo-questions" tabindex="-1">Alege o întrebare</h3>
+            <div class="scenario-list" role="group" aria-label="Scenarii demonstrative">
+              <button type="button" data-scenario="invoice" aria-pressed="true" aria-controls="demo-conversation" disabled>
+                <span><strong>Aprobarea unei facturi</strong><small>Achiziții</small></span>
+                <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>
+              </button>
+              <button type="button" data-scenario="remote" aria-pressed="false" aria-controls="demo-conversation" disabled>
+                <span><strong>Lucrul de la distanță</strong><small>Proceduri interne</small></span>
+                <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>
+              </button>
+              <button type="button" data-scenario="unknown" aria-pressed="false" aria-controls="demo-conversation" disabled>
+                <span><strong>Când răspunsul lipsește</strong><small>Limitele agentului</small></span>
+                <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>
+              </button>
+            </div>
+            <a class="text-link demo-jump demo-jump-answer" href="#demo-answer">
+              Vezi răspunsul <svg class="icon" aria-hidden="true"><use href="#icon-down"/></svg>
+            </a>
+            <p class="demo-disclosure">Simulare cu documente fictive și răspunsuri prestabilite.</p>
+            <noscript><p class="demo-disclosure">Activează JavaScript pentru a schimba întrebarea.</p></noscript>
+          </div>
+          <div class="demo-chat">
+            <div class="chat-header">
+              <span class="chat-avatar"><svg class="icon" aria-hidden="true"><use href="#icon-flow"/></svg></span>
+              <div><strong>Asistentul echipei</strong><span>Exemplu demonstrativ</span></div>
+            </div>
+            <div id="demo-conversation">
+              <div class="chat-question">
+                <span>Întrebare</span>
+                <p id="scenario-question">Cum trimit o factură spre aprobare?</p>
+              </div>
+              <div class="chat-answer" id="demo-answer" tabindex="-1" role="region" aria-label="Răspunsul din demo">
+                <p id="answer-state" class="answer-state"><span class="state-dot" aria-hidden="true"></span><span id="answer-state-label">Răspuns cu sursă</span></p>
+                <p id="answer-intro">Conform procedurii demonstrative de achiziții:</p>
+                <ol id="answer-steps">
+                  <li>Adaugă factura în folderul „Facturi de aprobat”.</li>
+                  <li>Completează furnizorul, suma și centrul de cost.</li>
+                  <li>Trimite cererea responsabilului de buget.</li>
+                </ol>
+                <p id="answer-note">După verificare, responsabilul actualizează statusul cererii.</p>
+                <button id="source-toggle" type="button" class="source-toggle" aria-expanded="false" aria-controls="source-excerpt" hidden>
+                  <svg class="icon" aria-hidden="true"><use href="#icon-document"/></svg>
+                  <span id="source-label">Procedura de achiziții · § 2</span>
+                  <svg class="icon source-plus" aria-hidden="true"><use href="#icon-plus"/></svg>
+                </button>
+                <div id="source-excerpt" class="source-excerpt" hidden>
+                  <p>Fragment din documentul fictiv</p>
+                  <blockquote id="source-text"></blockquote>
+                </div>
+                <a class="text-link demo-jump demo-jump-back" href="#demo-questions">
+                  Alege altă întrebare <svg class="icon" aria-hidden="true"><use href="#icon-down"/></svg>
+                </a>
+              </div>
+            </div>
+            <p id="demo-status" class="sr-only" role="status"></p>
+          </div>
+        </div>
+        <div class="demo-next">
+          <p>Ce întrebare primește echipa ta în fiecare săptămână?</p>
+          <a class="text-link" href="#contact" data-service="Agenți Copilot Studio">Propune un caz pentru pilot <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="servicii" aria-labelledby="services-title">
+      <div class="section-heading">
+        <h2 id="services-title">Ce poți automatiza</h2>
+        <p>Pornim de la munca pe care o repeți. Alegem instrumentul după proces, oamenii care îl folosesc și rezultatul pe care îl vrei.</p>
+      </div>
+      <div class="services-list">
+        <article class="service-row service-primary">
+          <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#icon-flow"/></svg></span>
+          <div class="service-main"><h3>Agenți AI pentru echipă</h3><p translate="no">Microsoft Copilot Studio</p></div>
+          <div class="service-detail"><p>Răspunsuri la întrebări recurente, din procedurile și ghidurile pe care le alegem împreună. Testăm sursele și limitele înainte de predare.</p><a class="text-link" href="#contact" data-service="Agenți Copilot Studio">Discută un pilot AI <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a></div>
+        </article>
+        <article class="service-row">
+          <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#icon-check"/></svg></span>
+          <div class="service-main"><h3>Cereri și aprobări</h3><p translate="no">Power Automate</p></div>
+          <div class="service-detail"><p>De exemplu, o cerere de achiziție ajunge la persoana care o aprobă, iar solicitantul primește o actualizare.</p><a class="text-link" href="#contact" data-service="Fluxuri de lucru">Discută un flux de lucru <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a></div>
+        </article>
+        <article class="service-row">
+          <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#icon-grid"/></svg></span>
+          <div class="service-main"><h3>Rapoarte Excel</h3><p>Fișiere și date recurente</p></div>
+          <div class="service-detail"><p>De exemplu, centralizezi fișierele regionale într-un singur raport lunar, cu verificări înainte de livrare.</p><a class="text-link" href="#contact" data-service="Excel și raportare">Discută un raport Excel <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a></div>
+        </article>
+      </div>
+      <a class="hero-pilot" href="fluxclar-ops.html">
+        <span><strong>FluxClar Ops pentru rețele de magazine</strong><span>Vezi cum ajunge o sesizare din Teams la persoana responsabilă.</span></span>
+        <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>
+      </a>
+    </section>
+
+    <section class="process-section" id="proces" aria-labelledby="process-title">
+      <div class="section wrap">
+        <div class="section-heading">
+          <h2 id="process-title">Ce include pilotul Copilot</h2>
+          <p>Lucrezi direct cu profesioniști cu experiență. Alegem împreună un proces cu întrebări recurente, cum ar fi aprobarea facturilor.</p>
+        </div>
+        <ol class="process-steps" role="list">
+          <li>
+            <span class="step-number" aria-hidden="true">01</span>
+            <h3>Stabilim scopul</h3>
+            <p>Alegem procesul, utilizatorii pilotului și documentele din care agentul poate răspunde.</p>
+          </li>
+          <li>
+            <span class="step-number" aria-hidden="true">02</span>
+            <h3>Configurăm și testăm</h3>
+            <p>Verificăm răspunsurile și sursele pentru întrebările agreate. Testăm și ce face agentul când informația lipsește.</p>
+          </li>
+          <li>
+            <span class="step-number" aria-hidden="true">03</span>
+            <h3>Îți predăm pilotul</h3>
+            <p>Primești agentul configurat, rezultatele testelor și un ghid scurt. Îi arătăm echipei cum să îl folosească.</p>
+          </li>
+        </ol>
+        <details class="pilot-example">
+          <summary>Vezi un exemplu de test <svg class="icon" aria-hidden="true"><use href="#icon-plus"/></svg></summary>
+          <div class="pilot-example-content">
+            <p><strong>Întrebare:</strong> Cum trimit o factură spre aprobare?</p>
+            <p><strong>Ce verificăm:</strong> Agentul redă pașii din procedură și indică secțiunea folosită. Dacă nu găsește informația, semnalează lipsa ei.</p>
+            <a class="text-link" href="?scenariu=factura#demo">Încearcă scenariul cu factura <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+          </div>
+        </details>
+        <div class="pilot-next">
+          <p>Primești o ofertă după discuția inițială. Ea separă costul implementării de licențe, consum și suport.</p>
+          <a class="button primary" href="#contact" data-service="Agenți Copilot Studio">Discută un pilot AI <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap faq-section" aria-labelledby="faq-title">
+      <div>
+        <h2 id="faq-title">Înainte de pilot</h2>
+        <p>Ce stabilim înainte să construim.</p>
+      </div>
+      <div class="faq-list">
+        <details><summary>Cât costă și cât durează un pilot?<svg class="icon" aria-hidden="true"><use href="#icon-plus"/></svg></summary><p>Estimarea depinde de surse, acces, integrări și scenariile de test. După discuția inițială, îți propunem un scop, livrabile, un calendar și un cost.</p></details>
+        <details><summary>Avem nevoie de licențe suplimentare?<svg class="icon" aria-hidden="true"><use href="#icon-plus"/></svg></summary><p>Depinde de configurația proiectului și de licențele existente. Verificăm cerințele pentru Copilot Studio, canale și integrări înainte să aprobăm soluția.</p></details>
+        <details><summary>Cum gestionăm documentele și accesul?<svg class="icon" aria-hidden="true"><use href="#icon-plus"/></svg></summary><p>Stabilim ce documente sunt necesare și cine trebuie să le poată accesa. Verificăm permisiunile și comportamentul agentului în configurația proiectului înainte de extinderea către echipă.</p></details>
+        <details><summary>Ce se întâmplă dacă agentul nu găsește răspunsul?<svg class="icon" aria-hidden="true"><use href="#icon-plus"/></svg></summary><p>Definim și testăm situația. De exemplu, agentul poate spune că nu găsește o sursă și poate indica persoana potrivită. Evaluăm și răspunsurile greșite.</p></details>
+        <details><summary>Ce primesc la final?<svg class="icon" aria-hidden="true"><use href="#icon-plus"/></svg></summary><p>Primești livrabilele agreate, un ghid scurt și o prezentare. Documentăm sursele, limitele cunoscute și ce am testat. Suportul ulterior se stabilește separat.</p></details>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <div class="contact-copy">
+          <h2 id="contact-title">Ce ai vrea să simplifici?</h2>
+          <p>Spune-ne ce face echipa acum și unde se pierde timp. Pornim de la o întrebare, un raport sau un pas repetitiv.</p>
+          <div class="contact-person">
+            <span class="contact-avatar" aria-hidden="true">MC</span>
+            <div><strong>Maxim Cazacu</strong><span>Contact pentru proiecte</span></div>
+          </div>
+          <a class="direct-email" id="direct-email" href="mailto:maximcazacu0501@mail.com">maximcazacu0501@mail.com</a>
+
+        </div>
+        <form id="inquiry" class="inquiry-form" method="post">
+          <h3>Cere o ofertă pentru proiect</h3>
+          <p class="form-intro">Servicii pentru companii și profesioniști. Cererea solicită o discuție sau o ofertă, fără obligație de plată. Contractul se încheie separat, pe baza ofertei acceptate.</p>
+          <div class="form-row">
+            <div>
+              <label for="name">Numele tău <span>(opțional)</span></label>
+              <input id="name" name="name" autocomplete="name" maxlength="100">
+            </div>
+            <div>
+              <label for="service">Ce te interesează? <span>(obligatoriu)</span></label>
+              <select id="service" name="service" required>
+                <option data-code="copilot">Agenți Copilot Studio</option>
+                <option data-code="workflows">Fluxuri de lucru</option>
+                <option data-code="workflows" data-pilot="ops">Pilot FluxClar Ops</option>
+                <option data-code="excel">Excel și raportare</option>
+                <option data-code="other">Încă explorez opțiunile</option>
+              </select>
+            </div>
+          </div>
+          <div class="reply-email-field" id="reply-email-field" hidden>
+            <label for="reply-email">Adresa ta de e-mail <span>(obligatoriu)</span></label>
+            <input id="reply-email" name="email" type="email" autocomplete="email" maxlength="254" spellcheck="false" aria-describedby="reply-email-error" disabled>
+            <p id="reply-email-error" class="field-error" role="alert" hidden>Introdu o adresă de e-mail la care îți putem răspunde.</p>
+          </div>
+          <label for="message">Descrie procesul <span>(obligatoriu, maximum 1.800 de caractere)</span></label>
+          <textarea id="message" name="message" rows="4" maxlength="1800" required aria-describedby="message-hint message-error"></textarea>
+          <p id="message-hint" class="field-hint">De exemplu, aprobarea facturilor sau centralizarea unui raport lunar.</p>
+          <p id="message-error" class="field-error" role="alert" hidden>Descrie pe scurt procesul pe care vrei să îl simplifici.</p>
+          <div class="privacy-note">
+            <p id="draft-privacy">Site-ul pregătește ciorna în browser. Tu trebuie să apeși „Trimite” în aplicația ta de e-mail. Site-ul nu trimite automat cererea.</p>
+            <p>Operator: <span data-launch="controller">De confirmat: Operatorul GDPR</span>. Scop și temei: <span data-launch="inquiry_basis">De confirmat: Scopurile, temeiurile cererilor și interesele legitime, dacă se aplică</span>. Păstrare: <span data-launch="inquiry_retention">De confirmat: Retenția cererilor și momentul de început</span>.</p>
+            <p id="inquiry-privacy" hidden>Folosim adresa de e-mail și mesajul ca să analizăm cererea și să îți răspundem.</p>
+            <p>Nu introduce parole, date sensibile, date despre colegi sau documente confidențiale. <a href="privacy.html">Cum folosim datele</a></p>
+          </div>
+          <button class="button primary" id="inquiry-button" type="submit" disabled><span id="inquiry-label">Pregătește e-mailul</span> <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+          <button class="button secondary" id="email-fallback" type="button" hidden>Pregătește e-mailul ca alternativă</button>
+          <p id="form-status" role="status" aria-live="polite" aria-atomic="true">Pregătești o ciornă pe care o poți deschide în aplicația de e-mail sau copia.</p>
+          <div id="draft-panel" class="draft-panel" hidden>
+            <label for="copy-draft">Mesajul pregătit</label>
+            <textarea id="copy-draft" rows="5" readonly></textarea>
+            <div class="draft-actions">
+              <a class="button primary" id="mail-draft" href="mailto:maximcazacu0501@mail.com">Deschide aplicația de e-mail</a>
+              <button class="button secondary" id="copy-button" type="button">Copiază mesajul</button>
+            </div>
+          </div>
+          <noscript><p>Formularul necesită JavaScript. Poți folosi adresa de e-mail afișată lângă el.</p></noscript>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <a class="brand" href="index.html" aria-label="FluxClar — acasă"><img src="fluxclar-on-light.svg" alt="" width="230" height="64" loading="lazy"></a>
+    <p>Preview · Datele prestatorului sunt în curs de confirmare<br>Servicii pentru companii și profesioniști · Ofertă la cerere</p>
+    <nav class="footer-policies" aria-label="Informații FluxClar">
+      <a href="prestator.html">Datele prestatorului</a>
+      <a href="privacy.html">Confidențialitate</a>
+      <a href="cookies.html">Cookie-uri și stocare</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "facts": {
+    "origin": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "legal_name": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "legal_form": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "registered_office": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "trade_register": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "cui": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "share_capital": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "phone": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "email": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "controller": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "controller_contact": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "dpo": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "inquiry_basis": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "logs_basis": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "inquiry_retention": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "logs_retention": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "backup_retention": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "deletion_process": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "automated_decisions": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "requests_mode": {
+      "value": "email",
+      "verified": false,
+      "evidence": ""
+    },
+    "inbox_owner": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "inbox_delivery_test": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    },
+    "regulated_activity": {
+      "value": "",
+      "verified": false,
+      "evidence": ""
+    }
+  },
+  "providers": [],
+  "public_api": {
+    "authorized": false,
+    "endpoint": ""
+  },
+  "optional_features": {
+    "ga4": false,
+    "external_booking": false,
+    "demo_storage": false
+  },
+  "approval": {
+    "by": "",
+    "date": "",
+    "evidence": ""
+  }
+}

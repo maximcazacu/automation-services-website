@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#102b27">
+  <title>FluxClar Ops | Gestionarea incidentelor din magazine în Teams</title>
+  <meta name="description" content="Testează FluxClar Ops în trei magazine. Consultă procedurile, atribuie sesizările și urmărește stadiul lor în Microsoft Teams.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ro_RO">
+  <meta property="og:site_name" content="FluxClar">
+  <meta property="og:title" content="FluxClar Ops | De la sesizare la responsabil, în Teams">
+  <meta property="og:description" content="Vezi cum funcționează fluxul pentru echipamentele din magazine și discută un pilot în trei locații.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ops.css">
+  <script src="config.js" defer></script>
+</head>
+<body>
+  <!-- preview:start --><p class="preview-notice" role="note">Preview pentru review și redesign. Identitatea vizuală și numele actual sunt respinse și urmează să fie înlocuite. Site-ul nu este lansat comercial. Nu trimite date reale pentru testare.</p><!-- preview:end -->
+  <a class="skip" href="#continut">Sari la conținut</a>
+  <header class="site-header" id="acasa">
+    <div class="nav wrap ops-nav">
+      <a class="brand" href="index.html" aria-label="FluxClar — pagina principală">
+        <img src="fluxclar-on-dark.svg" alt="" width="230" height="64">
+      </a>
+      <a class="text-link" href="#pilot">Ce include pilotul</a>
+    </div>
+  </header>
+
+  <main id="continut" tabindex="-1">
+    <section class="ops-hero" aria-labelledby="ops-title">
+      <div class="wrap ops-hero-grid">
+        <div class="ops-lead">
+          <h1 id="ops-title">De la incident în magazin la responsabil desemnat, direct în Teams.</h1>
+          <p><strong>FluxClar Ops</strong> ajută echipele din magazine să găsească procedura potrivită și să trimită problema mai departe. Sediul central vede cine se ocupă și ce a rămas deschis.</p>
+          <div class="ops-actions">
+            <a class="button ops-primary" href="index.html?pilot=ops#contact">Discută un pilot în 3 magazine</a>
+            <a class="text-link" href="#demo">Vezi exemplul</a>
+          </div>
+        </div>
+
+        <section class="ops-ticket" id="demo" aria-labelledby="ticket-title">
+          <header class="ops-ticket-head">
+            <p>Exemplu cu date fictive</p>
+            <h2 id="ticket-title">Imprimantă de etichete blocată</h2>
+            <p>Magazinul 03 · Echipamente</p>
+          </header>
+          <ol class="ops-timeline">
+            <li>
+              <details name="ops-demo" open>
+                <summary><span class="ops-step" aria-hidden="true">1</span> Sesizarea din Teams</summary>
+                <div class="ops-step-body">
+                  <p class="ops-quote">„Imprimanta s-a blocat și nu putem tipări etichetele. Ce facem?”</p>
+                  <p>Responsabilul magazinului descrie problema din conversația de lucru.</p>
+                </div>
+              </details>
+            </li>
+            <li>
+              <details name="ops-demo">
+                <summary><span class="ops-step" aria-hidden="true">2</span> Răspuns cu sursă</summary>
+                <div class="ops-step-body">
+                  <p>Agentul arată pașii din procedura aprobată și indică documentul folosit.</p>
+                  <p class="ops-source"><strong>Echipamente magazin, secțiunea 4</strong><br>Verifică dacă rola este montată corect și repornește imprimanta. Dacă eroarea persistă, trimite sesizarea la suport.</p>
+                </div>
+              </details>
+            </li>
+            <li>
+              <details name="ops-demo">
+                <summary><span class="ops-step" aria-hidden="true">3</span> Atribuire către suport</summary>
+                <div class="ops-step-body">
+                  <p>Managerul confirmă că problema persistă. Fluxul o atribuie conform regulilor stabilite și înregistrează stadiul.</p>
+                  <dl class="ops-assignment">
+                    <div><dt>Responsabil</dt><dd>Suport echipamente</dd></div>
+                    <div><dt>Stadiu</dt><dd><span>În lucru</span></dd></div>
+                  </dl>
+                </div>
+              </details>
+            </li>
+          </ol>
+        </section>
+      </div>
+    </section>
+
+    <section class="section wrap ops-pilot" id="pilot" aria-labelledby="pilot-title">
+      <div>
+        <h2 id="pilot-title">Un flux de lucru în trei magazine</h2>
+        <p>Începem cu sesizările despre echipamente. Pilotul este pentru rețelele în care magazinele și sediul central lucrează deja în Microsoft 365.</p>
+        <a class="button primary" href="index.html?pilot=ops#contact">Discută un pilot în 3 magazine</a>
+      </div>
+      <ol class="ops-scope">
+        <li><h3>Alegem procedura și responsabilii</h3><p>Stabilim ce documente din SharePoint poate consulta agentul și cine preia fiecare tip de problemă.</p></li>
+        <li><h3>Rulăm fluxul în Teams</h3><p>Testăm răspunsurile în Copilot Studio și atribuirea prin Power Automate. Când procedura nu acoperă cazul, agentul îndrumă echipa către suport.</p></li>
+        <li><h3>Comparăm timpul până la atribuire</h3><p>Raportul Excel arată cât a durat până când fiecare sesizare a avut un responsabil. Comparăm rezultatele cu situația de dinaintea pilotului.</p></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <a class="brand" href="index.html" aria-label="FluxClar — acasă"><img src="fluxclar-on-light.svg" alt="" width="230" height="64" loading="lazy"></a>
+    <p>Preview · Datele prestatorului sunt în curs de confirmare<br>Servicii pentru companii și profesioniști · Ofertă la cerere</p>
+    <nav class="footer-policies" aria-label="Informații FluxClar">
+      <a href="prestator.html">Datele prestatorului</a>
+      <a href="privacy.html">Confidențialitate</a>
+      <a href="cookies.html">Cookie-uri și stocare</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </footer>
+</body>
+</html>

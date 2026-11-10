@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+/work/
+/_site/
+/preview-*/
+/public-release*/
+/launch.json
+/launch.approved.json
+.env
+.env.*
+*.sqlite*
+*.db
+*credentials*
